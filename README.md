@@ -1,2 +1,2 @@
-# brawl-star-oop-project
+# Mega-man-oop-project
 brawl star as an game created by oop student at the second year of college.
