@@ -1,0 +1,11 @@
+apply plugin: "java"
+
+sourceCompatibility = 1.7
+[compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
+
+sourceSets.main.java.srcDirs = [ "src/" ]
+dependencies {
+    // Your might already have other librarires/dependencies here you should leave them 
+    // as they are and just add your on new line
+    compile files('libs/tween-engine-api.jar')
+}
